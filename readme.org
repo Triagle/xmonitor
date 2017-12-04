@@ -1,0 +1,19 @@
+#+TITLE: xmonitor
+
+* What is it?
+xmonitor is a small program to watch your active monitor connections and spit
+out events for other scripts to consume. Inspired by similar programs like
+[[https://github.com/baskerville/xtitle][xtitle]].
+
+* Dependencies
+Two dependencies: libX11, libXrandr.
+
+* Install
+Installation is just with a simple Makefile:
+
+#+BEGIN_SRC shell
+  make
+  sudo make install
+#+END_SRC
+
+By default the executable installs as =/usr/local/bin/xmonitor=.
